@@ -120,6 +120,11 @@ yes | sudo ufw enable
 #install database
 wget -O /var/lib/marzban/db.sqlite3 "https://github.com/daffahelmi/MarLing/raw/main/db.sqlite3"
 
+#swap ram 1gb
+wget https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -O swap
+sh swap 1G
+rm swap
+
 #finishing
 apt autoremove -y
 apt clean
