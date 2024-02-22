@@ -129,7 +129,6 @@ apt clean
 systemctl restart nginx
 cd /opt/marzban
 docker compose down && docker compose up -d
+timedatectl set-timezone Asia/Jakarta;
 cd
 rm /root/mar.sh
-
-
