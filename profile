@@ -1,4 +1,4 @@
 #!/bin/bash
 clear
-neofetch
+screenfetch -A 'Arch Linux' -w
 cekservice
