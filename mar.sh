@@ -64,7 +64,6 @@ echo -e 'profile' >> /root/.profile
 wget -O /usr/bin/profile "https://raw.githubusercontent.com/daffahelmi/MarLing/main/profile";
 chmod +x /usr/bin/profile
 apt install screenfetch -y
-wget -O ~/.config/neofetch/config.conf https://raw.githubusercontent.com/Chick2D/neofetch-themes/main/small/ozozfetch2.conf
 wget -O /usr/bin/cekservice "https://raw.githubusercontent.com/daffahelmi/MarLing/main/cekservice.sh"
 chmod +x /usr/bin/cekservice
 
