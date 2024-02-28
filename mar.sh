@@ -63,7 +63,7 @@ wget -O /opt/marzban/.env "https://raw.githubusercontent.com/daffahelmi/MarLing/
 echo -e 'profile' >> /root/.profile
 wget -O /usr/bin/profile "https://raw.githubusercontent.com/daffahelmi/MarLing/main/profile";
 chmod +x /usr/bin/profile
-apt install screenfetch -y
+apt install neofetch -y
 wget -O /usr/bin/cekservice "https://raw.githubusercontent.com/daffahelmi/MarLing/main/cekservice.sh"
 chmod +x /usr/bin/cekservice
 
