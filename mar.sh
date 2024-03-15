@@ -123,6 +123,7 @@ sh swap 1G
 rm swap
 
 #finishing
+timedatectl set-timezone Asia/Jakarta
 apt autoremove -y
 apt clean
 systemctl restart nginx
