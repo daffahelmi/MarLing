@@ -122,6 +122,11 @@ wget https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -O swap
 sh swap 1G
 rm swap
 
+#install WARP Proxy
+wget -O /root/warp "https://raw.githubusercontent.com/hamid-gh98/x-ui-scripts/main/install_warp_proxy.sh"
+sudo chmod +x /root/warp
+sudo bash /root/warp -y
+
 #finishing
 timedatectl set-timezone Asia/Jakarta
 apt autoremove -y
