@@ -128,7 +128,6 @@ sudo chmod +x /root/warp
 sudo bash /root/warp -y
 
 #finishing
-timedatectl set-timezone Asia/Jakarta;
 apt autoremove -y
 apt clean
 systemctl restart nginx
